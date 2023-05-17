@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Mono:ital,wght@1,100&family=Roboto:ital,wght@0,400;0,500;0,900;1,300;1,400;1,500&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.showcase {
+  background: #f1f4ed;
+}
+.logo {
+  font-family: "Merienda";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.3446px;
+  line-height: 160%;
+
+  color: #396c03;
+}
+nav ul li {
+  list-style: none;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  margin-right: 2rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 200%;
+  color: #3f3f3f;
+}
+nav ul li a select {
+  border: none;
+  background: transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 200%;
+  color: #3f3f3f;
+}
+.container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 2rem;
+}
+.header {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.btn-login {
+  padding: 12px 50px;
+  gap: 5px;
+  background: #396c03;
+  color: #f1f4ed !important;
+  border-radius: 225px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+
+  color: #ffffff;
+}
+.shopping-card {
+  position: relative;
+}
+.shopping-card svg {
+  background: #396c03;
+  padding: 7px;
+  border-radius: 50%;
+}
+.flex-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.quantity {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #f66016;
+  color: #f1f4ed;
+  text-align: center;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  border-radius: 50%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  color: #ffffff;
+}
+.flex-showcase {
+  padding: 6rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-image {
+  position: relative;
+}
+
+.leaf-image {
+  position: absolute;
+  top: -8rem;
+  right: -6rem;
+}
+.plate-icon {
+  position: absolute;
+  top: -2rem;
+  left: -2rem;
+}
+.card {
+  position: absolute;
+  top: -2rem;
+  left: 36%;
+  box-sizing: border-box;
+
+  padding: 10px;
+
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.4) 100%
+  );
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 8.86914px;
+}
+.card .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.card .flex h2 {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #ff8b00;
+}
+.card p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 130%;
+  text-align: center;
+
+  color: #838383;
+}
+.flex-showcase .order-text {
+  position: relative;
+  font-family: "Merienda";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 130%;
+  color: #396c03;
+}
+.leaft-png-left {
+  position: absolute;
+  top: -16rem;
+  left: -12rem;
+}
+/* .flex-showcase .main-image {
+  width: 533.15px;
+  height: 528px;
+  filter: drop-shadow(0px 12.2182px 27.0545px rgba(0, 0, 0, 0.15));
+} */
+.flex-showcase .title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #676767;
+}
+.input-box {
+  margin-top: 1rem;
+  box-sizing: border-box;
+  position: relative;
+  width: 500px;
+  height: 60px;
+  background: #ffffff;
+
+  border-radius: 120px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  color: #c7c7c7;
+  border: 1px solid #0a6f48;
+}
+.input-box .location {
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #ff8b00;
+}
+.input-box .input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 3.8rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+}
+.search-box {
+  position: relative;
+  width: 150px;
+  height: 60px;
+  font-weight: 800;
+  background: green !important;
+  border-radius: 35px;
+}
+.search-box .search-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 3rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+
+  color: #ffffff;
+}
+.search-box .search-input::placeholder {
+  color: white;
+}
+.position {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.search-icon {
+  position: absolute;
+  top: 1.4rem;
+  left: 1rem;
+}
+.custom-border {
+  border-bottom: 1px solid #dadce0;
+}
+.food {
+  background: #fff9f2;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.food .flex-container h1 {
+  font-family: "Merienda";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 130%;
+  color: #396c03;
+}
+
+.food .flex-container p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  width: 600px;
+  line-height: 160%;
+  color: #676767;
+}
+.food .flex-container .btn-explorer {
+  margin-top: 1rem;
+  gap: 0.5rem;
+  width: 231px;
+  height: 67px;
+  left: 100px;
+  top: 1243px;
+  background: #396c03;
+  border-radius: 224.4px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  color: #ffffff;
+}
+.food .flex-container .btn-explorer img {
+  margin-left: 0.5rem;
+}
+.right-side img {
+  mix-blend-mode: darken;
+}
+/* animatiom */
+.road {
+  background-image: url("../images/image\ 2.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  animation: roadAnimation 4s linear infinite;
+  mix-blend-mode: darken;
+  position: relative;
+  overflow: hidden;
+}
+
+.bicycle {
+  position: absolute;
+  bottom: -20px;
+  left: 1rem;
+}
+
+@keyframes roadAnimation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
